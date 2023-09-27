@@ -2,7 +2,7 @@ import 'package:flutter/foundation.dart';
 
 class FriendRequestProvider with ChangeNotifier{
 
-   List<String> _name=['David','John','Pranshu','Hridya','Kizz'];
+   List<String> _name=[];
 
    List<String> get Name => _name;
 

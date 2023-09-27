@@ -15,7 +15,7 @@ class _YourFriendsState extends State<YourFriends> {
    List<String> name=['David','John','Pranshu','Hridya','Kizz'];
   @override
   Widget build(BuildContext context) {
-    final FriendProvider = Provider.of<FriendRequestProvider>(context);
+    final FriendProvider = Provider.of<FriendRequestProvider>(context,listen: false);
     print('Build from top.');
     return Scaffold(
       appBar: AppBar(
